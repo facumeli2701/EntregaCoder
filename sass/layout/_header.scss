@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    align-items: center;
+    .mecca {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    h1 {
+        color: hsl(41, 100%, 50%);
+        background-color: rgba(0, 0, 0, 0.674);
+        text-align: center;
+    }
+    img {
+        margin: 10px;
+        text-align: center;
+        vertical-align: middle;
+        width: 100px;
+        height: 100px;
+    }
+
+}
+

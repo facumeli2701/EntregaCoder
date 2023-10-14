@@ -1,0 +1,18 @@
+nav {
+    ul {
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        gap: 20px;
+        list-style: none;
+        flex-wrap: wrap;
+    
+    & ul :hover{
+        color: red}
+        li a {
+            text-decoration: none;
+            text-align: justify;
+            color: white}
+        }
+
+}
