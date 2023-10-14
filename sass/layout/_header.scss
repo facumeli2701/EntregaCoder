@@ -18,6 +18,10 @@ header {
         vertical-align: middle;
         width: 100px;
         height: 100px;
+        transition: 500ms;
+        &:hover {
+            transform: rotate(360deg);
+        }
     }
 
 }

@@ -21,6 +21,10 @@ header img {
   vertical-align: middle;
   width: 100px;
   height: 100px;
+  transition: 500ms;
+}
+header img:hover {
+  transform: rotate(360deg);
 }
 
 * {
