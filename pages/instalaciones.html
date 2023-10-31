@@ -10,29 +10,38 @@
     <title>Instalaciones</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html">LA MECCA</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contacto.html">Contacto</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./planes.html">Planes</a>
-              </li>
-                </ul>
-              </li>
+  <nav class="navbar navbar-expand-lg bg-black text-white">
+    <div class="container-fluid">
+        <a class="navbar-brand text-warning" href="../index.html">
+          <img src="../assets/images/logo.webp" alt="logo" width="40" height="40" class="d-inline-block align-text-center">
+          LA MECCA
+        </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link text-white active text-white" aria-current="page" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white " href="./contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Conoce más
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./planes.html">Planes</a></li>
+              <li><a class="dropdown-item" href="./quienes_somos.html">Conocenos</a></li>
+             
             </ul>
-          </div>
-        </div>
-      </nav>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+   
     <div class="cabecera">
         <h1 id="instalaciones">INSTALACIONES</h1>
         <p id="elTemplo">
@@ -50,17 +59,24 @@
             </ol>
         </div>
         <div class="contenedor_derecho">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/HQfF5XRVXjU?si=8xr-yJssLjzaQgIW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/HQfF5XRVXjU?si=8xr-yJssLjzaQgIW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     
     </div>
 <br>
-    <a href="../index.html">Volver al inicio</a>
+    <a class= "VolverAHome" href="../index.html">Volver al inicio</a>
 
-    <footer id="final">
-       
-        <p>Contenido creado por Facundo Melian</p>
-   
+    <footer class="masInfoFooter">
+      <div class="footer-logo">
+        <img id="logoFooter" src="../assets/images/logo.webp" alt="logo">LA MECCA</div>
+      <div class="footer-contact">
+          Dirección: Pablo Zufriategui 790, Ituzaingo.
+          <br>
+          Teléfono: (011) 4543-7890
+          <br>
+          Correo Electrónico: lameccadelfitness@gmail.com
+      </div>
+      
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>

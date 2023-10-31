@@ -62,13 +62,16 @@ body #paginaDeContacto {
   background-image: url(../assets/images/limites.jpg);
   background-position: center;
 }
-body div .cabecera {
+
+ .cabecera {
   display: flex;
   flex-direction: column;
   gap: 20px;
   border-bottom: 1px solid white;
+  color: white;
+  padding: 50px;
 }
-body div .cabecera #instalaciones {
+#instalaciones {
   color: hsl(41, 100%, 50%);
 }
 body div .cabecera #elTemplo {
@@ -169,6 +172,12 @@ body article #Encontranos iframe #mapa {
 }
 body article button a #conoce {
   color: hsl(41, 90%, 39%);
+}
+.inicio {
+  text-decoration: none;
+  text-align:justify; 
+  color: #ffffff;
+
 }
 body article div #templo {
   color: black;

@@ -8,6 +8,7 @@
 *{
     margin: 0;
     padding: 0;
+
 }
 
 
@@ -67,7 +68,8 @@ header img {
 
 .banner img {
     width: 100%;
-    height: auto;  
+    height: auto;
+
 }
 
 aside h1{
@@ -79,7 +81,7 @@ aside h1{
 
 #dudas {
     color: hsl(41, 100%, 50%);
-    padding-top: 20px;
+    padding-top: 50px;
     
 }
 
@@ -108,11 +110,11 @@ div a {
 }
 
 #quienes {
-    color: black;
+  
     width: 100%;
     height: 40px;
     padding-bottom: 70px;
-    background-color: white;
+    color: hsl(41, 100%, 50%);
     
 }
 
@@ -123,6 +125,8 @@ div a {
     gap: 20px;
     /* padding: 20px; */
     border-bottom: 1px solid white;
+    color: white !important;
+    padding: 50px;
 }
 
 
@@ -157,6 +161,8 @@ align-items: center;}
 
 #instalaciones {
     color: hsl(41, 100%, 50%);
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #elTemplo {
@@ -183,10 +189,13 @@ footer{
     font-family: "Ysabeau SC";
     text-align:start;
     bottom: 0;
+
 }
 
 #planes {
-background-color: white;}
+background-color: white;
+padding-top: 50px;
+padding-bottom: 50px;}
 
 #precios {
     height: 700px;
@@ -282,3 +291,18 @@ flex-direction: column;
 
 #mapa {
 display: flex;}
+
+#logoFooter{
+width: 50px;}
+
+.masInfoFooter {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 50px;
+}
+
+input {
+    background-color: black;
+    color: white;
+}
